@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+body {
+  background: #eee;
+  margin: 0;
+  transition: 0.2s linear;
+  font-family: 'Dosis', sasn-serif;
+  color: #333;
+}
+main {
+  margin: 3rem auto 0;
+  width: 550px;
+  background: rgb(116, 178, 189);
+  padding: 1rem 2rem 2rem;
+  box-shadow: 1px 2px 6px #333;
+  border-radius: 4px;
+}
+.img {
+  background: url("https://i.ibb.co/q10hRW1/Screen-Shot-2019-04-15-at-10-51-54-PM.png") no-repeat 100%/cover;
+  height: 280px;
+  border-radius: 4px;
+}
+.toggle {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+.checkbox {
+  display: none;
+}
+.label {
+  height: 26px;
+  width: 50px;
+  background: rgb(182,182,182);
+  padding: 5px 8px;
+  border-radius: 50px;
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transform: scale(1.2);
+  box-shadow: 2px 1px 1px #333;
+}
+.label .ball {
+  background: #eee;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  transform: translateX(0px);
+  transition: transform 0.4s cubic-bezier(.45, -1.12, .35,1.78);
+}
+.checkbox:checked + .label .ball {
+  transform: translateX(29px);
+}
+.fa-moon {
+  color: #333;
+}
+
+ /* DARK MODE */
+ .dark {
+   background: #333;
+ }
+ .dark main {
+   background: #09FBBA;
+ }
+ .dark .label {
+   box-shadow: 2px 1px 1px #09FBBA;
+   background: #888;
+ }
+ .dark .ball {
+   background: #09FBBA;
+ }
+
+
+
+
+
+/* SIGNATURE */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
+.signature {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(51, 51, 51, 0.808);
+  padding: .5rem .5rem;
+  border-radius: 50px;
+  box-shadow: 0 0 0px 3px rgb(9,251,186);
+  color: rgb(9,251,186);
+  font-family: 'Open Sans', sans-serif;
+  font-size: .7rem;
+  cursor: pointer;
+}
+.signature:hover {
+  transform: translateX(3px);
+  background: linear-gradient(90deg, rgba(51, 51, 51, 0.808) 30%, rgba(100, 100, 100, 0.808) 100% );
+  transition: .3s ease;
+  box-shadow: 0 0 0px 3px rgb(79, 250, 204);
+  color: rgb(79, 250, 204);
+}
+.signature:focus {
+  outline: none;
+}
+.signature .flag {
+  height: 13px;
+  width: 22px;
+  background: linear-gradient(90deg, blue 36%, white 36%, white 67%, red 67%);
+  box-shadow: inset 2px 2px 2px #222, 2px 2px 1px #222;
+  margin-right: 6px;
+  transform: translateY(3px);
+}
+.signature h3 {
+  margin: 0;
+}
+.signature i {
+  font-size: 1.1rem;
+  text-shadow: 2px 2px 1px #222;
+  transform: translateY(2px);
+}
