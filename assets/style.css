@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Expletus+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 :root {
@@ -222,6 +223,15 @@ header {
 .card:nth-child(4):before {
   background-image: url(/UPHUB/4.jpg);
 }
+.card:nth-child(5):before {
+  background-image: url(/UPHUB/5.jpg);
+}
+.card:nth-child(6):before {
+  background-image: url(/UPHUB/1.png);
+}
+.card:nth-child(7):before {
+  background-image: url(/UPHUB/4.jpg);
+}
 
 .content {
   position: relative;
@@ -361,4 +371,118 @@ header {
   font-size: 1.1rem;
   text-shadow: 2px 2px 1px #222;
   transform: translateY(2px);
+}
+/* body text terme et conditions */
+h1 {
+  padding: 1.5rem;
+}
+p {
+  text-align: justify;
+}
+p::first-letter {
+  font-size: 1.5rem;
+  color: rgb(0, 144, 216);
+}
+.adapt {
+  display: flex;
+  padding: 6rem 1rem 1rem 0;
+  margin-bottom: 3rem;
+}
+.dummy-adapt {
+  padding: 2rem 2rem 2rem 0;
+}
+.adapt img {
+  width: 50%;
+}
+.improvise {
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+.improvise h1 {
+  text-align: right;
+  padding-right: 17%;
+}
+.improvise img {
+  width: 60%;
+  padding: 2rem;
+}
+.dummy-improvise {
+  display: flex;
+}
+.overcome {
+  padding: 2rem;
+  background: rgba(52, 187, 255, 0.287);
+}
+.overcome h1 {
+  text-align: center;
+}
+.overcome img {
+  width: 90%;
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .nav-elements {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 999px) {
+  main {
+    padding: 0 2rem;
+  }
+}
+/*  exemple effet portfolio */
+.portfolio {
+  display: flex;
+  min-width: 600px;
+  max-width: 900px;
+  height: 400px;
+  margin: 4rem auto;
+}
+.image {
+  min-width: 60px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  overflow: hidden;
+  position: relative;
+}
+.image.active {
+  flex-grow: 100;
+  max-width: 600px;
+  margin: 0px;
+  border-radius: 7px;
+  background-size: auto 100%;
+}
+.image:not(.active) {
+  flex-grow: 1;
+  border-radius: 5px;
+}
+.text-container {
+  width: 100%;
+  height: 400px;
+  padding: 2rem;
+  visibility: hidden;
+  transform: translateY(300px);
+  opacity: 0;
+  transition: all 0.4s ease;
+  background: linear-gradient(354deg, black 0%, transparent 72%);
+  color: white;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  bottom: 5rem;
+}
+.active .text-container {
+  visibility: visible;
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+footer {
+  
 }
