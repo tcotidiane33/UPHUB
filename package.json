@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/tcotidiane33/UPHUB/issues"
   },
-  "homepage": "https://github.com/tcotidiane33/UPHUB#readme"
+  "homepage": "https://github.com/tcotidiane33/UPHUB#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.6"
+  }
 }
