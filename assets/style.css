@@ -99,19 +99,19 @@ header {
 .loginContent ul {
   list-style: none;
 }
-.loginContent ul li a {
+/* .loginContent ul li a {
   text-decoration: none;
   margin: 2rem;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   padding: 10px;
   border-radius: 30% 30%;
-}
-#login {
+} */
+/* #login {
   padding: 10px;
   display: flex;
   border-radius: 15% 15%;
-}
+} */
 
 /* p {
   color: #09fbba;
@@ -538,4 +538,14 @@ p::first-letter {
 }
 
 footer {
+}
+
+/* Iframe  */
+iframe {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.output {
+  background: #eee;
 }
