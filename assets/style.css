@@ -27,11 +27,11 @@ body {
   border-radius: 10% 10%;
   display: grid;
   place-items: center;
-  background-image: url("../UPHUB/12.png");
+  background-image: url("../UPHUB/bg.svg");
+  background-size: cover;
   /* z-index: -1; */
   /* opacity: 50%; */
   /* visibility: 50%; */
-  size: cover;
 }
 .nav-item {
   background-position-x: #333;
