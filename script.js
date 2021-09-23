@@ -27,7 +27,7 @@ $("<span/>").appendTo("body");
 // jQeury pour cacher tous les elements de la page .
 // $("div").hide();
 //  Pour connaitre le nombre de div
-$("div").length();
+// $("div").length();
 // pour renvoyer tout les balise(*)
 $("*");
 // pour renvoyer tous les div de class content
@@ -48,4 +48,4 @@ $("div")[2];
 $("div").eq(2);
 // recupération d'un "élement à partir de la fin"
 $("div").eq(-2);
-// 
+//

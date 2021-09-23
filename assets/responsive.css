@@ -1,0 +1,73 @@
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+  .header .toggle .checkbox .label,
+  .container .img .title .loginContent .nav-item .items,
+  .about .improve .adapt .overcome .portfolio .image {
+    padding: 2%;
+    margin: 0%;
+  }
+
+  .site-main .about h1 {
+    font-size: 41px;
+  }
+
+  .site-main {
+    width: 15rem !important;
+  }
+
+  .page-content > .card .about {
+    width: 13rem;
+  }
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+  .page-content > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+
+  .page-content .card {
+    padding-left: 1%;
+    width: 49%;
+  }
+
+  .page-content {
+    margin-left: 30%;
+    width: 80%;
+  }
+
+  .page-content {
+    padding-left: 3%;
+  }
+
+  .page-content {
+    font: normal 500 18px/40px var(--roboto);
+  }
+
+  .page-content .image p {
+    padding: 0%;
+  }
+
+  .page-content {
+    width: 20rem;
+    margin: 5%;
+  }
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  .header .nav-item {
+    padding: 1rem;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .page-content .card,
+  .page-content .card .content,
+  .page-content .card .content .copy {
+    padding: 3% 4%;
+  }
+}
