@@ -128,3 +128,37 @@
   width: 1200px;
   /* height: 500px; */
 }
+.nav-item ul li {
+  content: "\e8b9";
+  padding: 1rem;
+}
+.nav-item ul li a {
+}
+#img {
+  border-radius: 0 10%;
+}
+#img:hover {
+  border-radius: 0 10%;
+  top: 2rem;
+  position: static;
+  transition: 2s;
+  opacity: 70%;
+}
+#img::before {
+  border-radius: 0 10%;
+  transition: 2s;
+  opacity: 1000%;
+}
+#img:active {
+  border-radius: 0 10%;
+  top: 2rem;
+  position: static;
+  transition: 2s;
+  opacity: 76%;
+}
+#ing:not(:active) {
+  border-radius: 0 10%;
+  transition: 2s;
+  opacity: 1%;
+  visibility: 1%;
+}
