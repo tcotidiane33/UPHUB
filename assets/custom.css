@@ -1,3 +1,29 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #263238;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff3d00;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
 .loginContent {
   position: relative;
 }
@@ -123,6 +149,47 @@
   padding: 0;
   border-radius: 0 5%;
 }
+.portfolio1 img:hover {
+  /* size: center; */
+  cursor: pointer;
+  /* overflow: hidden; */
+  justify-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  margin: 1rem;
+  top: 5px;
+  transition: 1s ease;
+  border-radius: 0 5%;
+  box-shadow: 1rem 1rem 3rem 3rem #03e9f4;
+  opacity: 1000%;
+  visibility: 100%;
+}
+.portfolio1 img:not(hover) {
+  /* size: center; */
+  cursor: pointer;
+  /* overflow: hidden; */
+  justify-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  margin: 0rem;
+  top: 0px;
+  opacity: 80%;
+  visibility: 85%;
+  transition: 3s ease;
+  border-radius: 0 5%;
+}
+.portfolio1 img::after {
+  /* size: center; */
+  cursor: pointer;
+  /* overflow: hidden; */
+  justify-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  margin: 0rem;
+  top: 0px;
+  transition: 3s ease;
+  border-radius: 0 5%;
+}
 
 #img1 {
   width: 1200px;
@@ -138,9 +205,10 @@
   border-radius: 0 10%;
 }
 #img:hover {
+  cursor: pointer;
   border-radius: 0 10%;
   top: 2rem;
-  position: static;
+  position: sticky;
   transition: 2s;
   opacity: 70%;
 }
@@ -152,7 +220,7 @@
 #img:active {
   border-radius: 0 10%;
   top: 2rem;
-  position: static;
+  position: sticky;
   transition: 2s;
   opacity: 76%;
 }

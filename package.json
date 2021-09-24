@@ -4,7 +4,7 @@
   "description": "createur digital",
   "main": "script.js",
   "scripts": {
-    "test": "npm start"
+    "test": " index.html"
   },
   "repository": {
     "type": "git",
