@@ -172,7 +172,7 @@
   border-radius: 0 5%;
   box-shadow: 1rem 1rem 3rem 3rem #03e9f4;
   opacity: 1000%;
-  visibility: 100%;
+  visibility: 1000%;
 }
 .portfolio1 img:not(hover) {
   /* size: center; */
@@ -239,4 +239,7 @@
   transition: 2s;
   opacity: 1%;
   visibility: 1%;
+}
+.text-center {
+  height: 1rem;
 }

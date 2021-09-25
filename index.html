@@ -130,14 +130,14 @@
                 <button class="btn">Voir Plus</button>
             </div>
         </div>
-        <!-- <div class="card" id="img">
+         <div class="card" id="img">
             <div class="content">
                 <h2 class="title">page of pub</h2>
                 <p class="copy">Lorem ipsum dolor sit, aperiam incidunt nesciunt harum.</p>
                 <button class="btn">View Trips</button>
             </div>
         </div>
-        <div class="card">
+        <!-- <div class="card">
             <div class="content">
                 <h2 class="title">Curriculium Vitae</h2>
                 <p class="copy">It's the the best Curriculium</p>
@@ -210,7 +210,9 @@
       <img src="./UPHUB/webdesign/PROMO.jpeg" id="img1" alt="promo1">
 </div>
 <div class="voir">
-    <h1><b><a href="./promotion.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"><span> VOIR PLUS ....</span></i></a></b></h1>
+    <button class="btn btn-primary mt-2 md-2" onclick='populateTableList()'>
+        <h1><b><a href="./promotion.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"><span> VOIR PLUS ....</span></i></a></b></h1>
+    </button>
 
 </div>
   <!-- effet portfolio 2 exemplaire of products -->
@@ -276,17 +278,29 @@
         </div>
 <!-- partielle -->
 
-        <footer class="footer">
-            <section>
-                <h1><em><strong><span>UP</span></strong>hub</em> createur digital</h1>
-            </section>
+        <footer class="footer container fixed-bottom text-light">
+            <div class="text-center py-3">
+                <ul id="footer">
+                    <li>
+                        <a href="./index.html"><em><strong><span>UP</span></strong>hub</em> createur digital</a>                
+                    </li>
+                    <li>
+                        <b href="http://www.uphub.com"> © 2021 Copyright<i class="ri-copyright-fill"></i></b>
+                        
+                    </li>
+                    <li>
+                        <a href="http://www.uphub.com">www.uphub.com</a>
+                        <i class="ri-h-6">by Jupiters</i>
+                    </li>
+                </ul>
+            </div>
         </footer>
 
 <!-- start iframe  -->
         <iframe id="inlineFrameExample"
     title="Inline Frame Example"
     width="300"
-    height="200"
+    height="400"
     src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
     </iframe>
 <!-- end iframe  -->
