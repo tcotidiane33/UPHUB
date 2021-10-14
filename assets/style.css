@@ -552,8 +552,8 @@ footer {
 footer:hover {
   visibility: 70%;
   opacity: 100%;
-  height: 1rem;
-  padding: 2rem;
+  height: 0.5rem;
+  padding: 0.5rem;
   position: fixed;
   transition: 1s ease;
 }
@@ -561,8 +561,8 @@ footer:not(hover) {
   border-radius: 500% 500%;
   visibility: 70%;
   opacity: 100%;
-  height: 1rem;
-  padding: 2rem;
+  height: 0.2rem;
+  padding: 1rem;
   position: fixed;
   transition: 1s ease;
 }
