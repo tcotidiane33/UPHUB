@@ -98,7 +98,7 @@ header {
 .loginContent .loginContent0 ul li {
   list-style: none;
 }
-.loginContent .loginContent0 ul li {
+.loginContent .loginContent0 ul li a {
   text-decoration: none;
 }
 /* footer of page promotion  */
@@ -107,6 +107,7 @@ header {
 }
 .loginContent0 ul {
   display: flex;
+  list-style-type: none; !important
 }
 .loginContent0 ul li a {
   font-size: 4rem;
@@ -115,15 +116,19 @@ header {
 }
 #login0 li a {
   font-size: 4rem;
+  text-decoration: none;
 }
 #info1 li a {
   font-size: 2rem;
+  text-decoration: none;
 }
-#socialNetwork {
+#socialNetwork li a {
   padding: 5rem;
   font-weight: 100;
   font-size: large;
+  text-decoration: none;
 }
+
 /* .loginContent ul li a {
   text-decoration: none;
   margin: 2rem;
