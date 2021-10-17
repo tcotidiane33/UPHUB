@@ -95,8 +95,34 @@ header {
 .loginContent {
   justify-content: flex-end;
 }
-.loginContent ul {
+.loginContent .loginContent0 ul li {
   list-style: none;
+}
+.loginContent .loginContent0 ul li {
+  text-decoration: none;
+}
+/* footer of page promotion  */
+.loginContent0 {
+  padding: 100px;
+}
+.loginContent0 ul {
+  display: flex;
+}
+.loginContent0 ul li a {
+  font-size: 4rem;
+  color: crimson;
+  padding: 100px;
+}
+#login0 li a {
+  font-size: 4rem;
+}
+#info1 li a {
+  font-size: 2rem;
+}
+#socialNetwork {
+  padding: 5rem;
+  font-weight: 100;
+  font-size: large;
 }
 /* .loginContent ul li a {
   text-decoration: none;
