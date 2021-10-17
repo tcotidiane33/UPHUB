@@ -144,8 +144,8 @@
 #promotion1 {
   display: flex;
   flex-wrap: wrap;
-  width: 150px;
-  height: 170px;
+  width: 230px;
+  height: 190px;
   justify-content: center;
 }
 /* .promotion2 {
