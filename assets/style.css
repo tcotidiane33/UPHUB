@@ -103,19 +103,19 @@ header {
 }
 /* footer of page promotion  */
 .loginContent0 {
-  padding: 100px;
+  padding: 90px;
 }
 .loginContent0 ul {
   display: flex;
   list-style-type: none; !important
 }
 .loginContent0 ul li a {
-  font-size: 4rem;
+  font-size: 3rem;
   color: crimson;
-  padding: 100px;
+  padding: 80px;
 }
 #login0 li a {
-  font-size: 4rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 #info1 li a {
@@ -123,8 +123,8 @@ header {
   text-decoration: none;
 }
 #socialNetwork li a {
-  padding: 5rem;
-  font-weight: 100;
+  padding: 3rem;
+  font-weight: 10px;
   font-size: large;
   text-decoration: none;
 }
