@@ -1,0 +1,14 @@
+/* css of the final footer rename section*/
+.display-flex {
+  display: flex;
+}
+.sub-title {
+  padding: 2rem;
+}
+.sub-title ul li {
+  list-style-type: none;
+  list-style-type: none;
+}
+.sub-title ul li a {
+  text-decoration: none;
+}
