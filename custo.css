@@ -1,14 +1,54 @@
 /* css of the final footer rename section*/
 .display-flex {
   display: flex;
+  background-color: rgba(
+    rgb(226, 132, 132),
+    rgb(108, 177, 108),
+    rgb(77, 77, 218),
+    0.2
+  );
 }
 .sub-title {
   padding: 2rem;
 }
 .sub-title ul li {
-  list-style-type: none;
-  list-style-type: none;
+  list-style-type: style type circle;
+  /* list-style: none; */
 }
 .sub-title ul li a {
   text-decoration: none;
+}
+/* RESPONSIVE  */
+@media only screen and (max-width: 500px) {
+  .display-flex {
+    display: block;
+  }
+  .container {
+    display: block;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .socialContact {
+    display: block;
+    padding: 100px;
+    margin: 50px;
+  }
+}
+.features {
+  position: relative;
+  flex-wrap: wrap;
+}
+.contact {
+  position: relative;
+}
+.socialContact {
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+.logo-footer {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 16%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
