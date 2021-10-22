@@ -1,49 +1,102 @@
 /* css of the final footer rename section*/
 .display-flex {
   display: flex;
-  background-color: rgba(
-    rgb(226, 132, 132),
-    rgb(108, 177, 108),
-    rgb(77, 77, 218),
-    0.2
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(32, 19, 41);
   );
 }
 .sub-title {
   padding: 2rem;
 }
 .sub-title ul li {
-  list-style-type: style type circle;
+  list-style-type: none;
   /* list-style: none; */
 }
 .sub-title ul li a {
   text-decoration: none;
 }
-/* RESPONSIVE  */
-@media only screen and (max-width: 500px) {
+/*
+  ===================
+  RESPONSIVE 
+  ===================
+ */
+@media only screen and (max-width: 320px) {
+  *{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+  }
   .display-flex {
-    display: block;
+    flex-direction: column;
+    justify-content: center;
+    /* display: block; */
   }
   .container {
-    display: block;
+    flex-direction: column;
+    justify-content: center;
+    /* display: block; */
     position: relative;
     flex-wrap: wrap;
   }
-  .socialContact {
+      /* 
+      <!-- =========================
+                    portfolio 1 IMG
+            ========================== -->
+      */
+      
+      
+      /* 
+      <!-- =========================
+                    FEATURES
+            ========================== -->
+      */
+  .smart-service{
+    position: absolute !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    place-items: center;
+    place-content: center;
     display: block;
+    padding-bottom: 2rem;
+  }
+  .open-overlay p{
+    padding: 2rem;
+  }
+
+  .sub-title{
+    flex-direction: column;
+    justify-content: center;
+    /* display: flexbox; */
+  }
+  .socialLink{
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  
+  .socialContact {
+    /* display: block; */
+    justify-content: space-between;
+    flex-direction: column;
     padding: 100px;
     margin: 50px;
   }
 }
+
+
 .features {
   position: relative;
   flex-wrap: wrap;
 }
+
 .contact {
   position: relative;
 }
 .socialContact {
   flex-wrap: wrap;
   padding: 5rem;
+}
+.socialLink{
+  justify-content: space-evenly;
 }
 .logo-footer {
   margin: 0 !important;

@@ -588,14 +588,18 @@ p::first-letter {
   transition: 1s ease;
 }
 #footer:not(hover) {
-  /* border-radius: 500% 500%; */
-  /* width: auto; */
-  visibility: 70%;
+  /*border-radius: 500% 500%;
+  *//*width: auto;
+  */visibility: 70%;
   opacity: 100%;
   height: 0.8rem;
   padding: 0rem;
   position: fixed;
   transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
 }
 footer ul li {
   list-style: none;

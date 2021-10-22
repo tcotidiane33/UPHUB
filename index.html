@@ -134,7 +134,7 @@
                 <button class="btn">Voir Plus</button>
             </div>
         </div>
-         <div class="card" id="img">
+        <div class="card" id="img">
             <div class="content">
                 <h2 class="title">page of pub</h2>
                 <p class="copy">Lorem ipsum dolor sit, aperiam incidunt nesciunt harum.</p>
@@ -185,10 +185,10 @@
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, id dolorum. Quo saepe deleniti excepturi inventore sapiente, quos, facilis qui tempore quam fugit eius itaque repellendus impedit praesentium delectus vero. Culpa magni expedita quis fugit! Corporis voluptatum accusantium recusandae, distinctio voluptas hic quis temporibus non assumenda doloribus modi consequatur harum maxime optio nesciunt accusamus totam magni inventore. Facilis quos at earum eius perferendis quas optio nulla hic impedit necessitatibus numquam illo sed error harum, corporis suscipit obcaecati laborum minima vel quod. Aperiam magnam error, libero pariatur dolor inventore vel sed minima, nam officiis ut reiciendis eaque omnis deserunt nulla voluptatibus? Aperiam assumenda amet unde praesentium est quos suscipit eum ab accusantium itaque placeat beatae ea, perspiciatis, provident adipisci dolorum corrupti earum numquam libero. Debitis velit veritatis facere magnam?</p>
       <img src="./_solde_effect/CSS-portfolio-effect-master/media/svg/undraw_financial_data_es63.svg" alt="">
     </div>
-  </main>
+    </main>
 
    <!-- effet portfolio 1 exemplaire of products -->
-  <div class="portfolio1" id="promotion" >
+    <div class="portfolio1" id="promotion" >
      
       <h1><b>ETIAM ADIPISCING MAGNA FEUGIAT LOREM DOLOR EGESTAS</b></h1>
         <img src="./UPHUB/webdesign/PROMO1.jpg" alt="promo1">
@@ -209,18 +209,18 @@
         <h1><b> are you ready for TEST DRIVE</b></h1>
         <img src="./UPHUB/webdesign/PROMO9.jpg" alt="promo9">
         <h1><b> WOODER  </b></h1>
-      <img src="./UPHUB/webdesign/PROMO10.jpg" alt="promo10">
+      <img src="./UPHUB/webdesign/PROMO10.jpg" id="img1" alt="promo10">
        <h1>BARMY GRAFFITI CREW</h1>
       <img src="./UPHUB/webdesign/PROMO.jpeg" id="img1" alt="promo1">
-</div>
-<div class="voir">
-    <button class="btn btn-primary mt-2 md-2" onclick='populateTableList()'>
-        <h1><b><a href="./promotion.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"><span> VOIR PLUS ....</span></i></a></b></h1>
-    </button>
-
-</div>
+    </div>
+<!-- buttom voir plus #promotion -->
+    <div class="voir">
+        <button class="btn btn-primary mt-2 md-2" onclick='populateTableList()'>
+            <h1><b><a href="./promotion.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"><span> VOIR PLUS ....</span></i></a></b></h1>
+        </button>
+    </div>
   <!-- effet portfolio 2 exemplaire of products -->
-  <div class="portfolio">
+    <div class="portfolio">
       
       <div class="image active" style="background: url(./UPHUB/basic-pics/wp4600617.jpg) center/cover;">
         <div class="text-container">
@@ -266,7 +266,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 <!-- partielle -->
 
 
@@ -313,16 +313,15 @@
         ========================== -->
 
         <section class="features parallax" data-stellar-background-ratio="0.7" id="features">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-4 col-md-4">
+                <div class="text-center display-flex smart-service">
+                    <div class="high">
                         <div class="features-box">
                             <div class="open-overlay"><i class="icon-lightbulb"></i></div>
                             <h4>High Quality</h4>
                             <p>SOUCRIVER POUR L'OFFRE SMART QUI PERMET DE PROFITER DES MEILLEURS DES REDUCTIONS JUSQU'A </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="great">
                         <div class="features-box">
                             <div class="open-overlay"><i class="icon-ribbon"></i></div>
                             <h4>Great Features</h4>
@@ -330,7 +329,7 @@
                             <!-- <big><span>-80%</span><big></big -->
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="customer">
                         <div class="features-box">
                             <div class="open-overlay"><i class="icon-circle-compass"></i></div>
                             <h4>Customer Services</h4>
@@ -338,14 +337,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>    
 
         <!-- =========================
                  CONTACT
         ========================== -->
-
-        <section id="contact" class="contact">
+        <section class="section">
+        <div id="contact" class="contact">
             <div class="container">
                 <div class="row">
                     <div class="">
@@ -356,45 +354,53 @@
                 </div> <!-- end row -->
                 <!-- CONTACT FORM -->
                 <div id="cformSuccessMsg" style="display: none;" class="confirm-message"></div>
-                <form id="" name="contactForm" method="POST" >
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-lg-offset-2 col-md-offset-2">
-                            <input class="" type="text" name="contact_name" id="contact_name" placeholder="Name" />
-                        </div> <!-- end Name -->
-                        <div class="col-lg-4 col-md-4">
-                            <input class="" type="text" name="contact_email" id="contact_email" placeholder="Email" />
-                        </div> <!-- end Email -->
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-lg-offet-2 col-md-offset-2">
-                            <textarea name="contact_message" id="contact_message" placeholder="Message"></textarea>
+                    <form id="" name="contactForm" method="POST" >
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-lg-offset-2 col-md-offset-2">
+                                <input class="" type="text" name="contact_name" id="contact_name" placeholder="Name" />
+                            </div> <!-- end Name -->
+                            <div class="col-lg-4 col-md-4">
+                                <input class="" type="text" name="contact_email" id="contact_email" placeholder="Email" />
+                            </div> <!-- end Email -->
                         </div>
-                    </div> <!-- end Message -->
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="text-right">
-                                <button class="btn btn-custom" id="contact_submit_btn" name="contact_submit_btn"><span>Send Message</span></button>
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-lg-offet-2 col-md-offset-2">
+                                <textarea name="contact_message" id="contact_message" placeholder="Message"></textarea>
                             </div>
-                        </div>
-                    </div> <!-- end button -->
-                </form><!-- END FORM -->
-                <div class="nav-item "  >
-                    <ul class="social items socialContact" >
-                        <li class="social-btn" style="padding: 2rem;" id="fb"><a href="#https://www.facebook.com" style="font-weight: 100px;"><i  class="fa fa-facebook"></i></a></li>
-                        <li class="social-btn" style="padding: 2rem;" id="tw"><a href="#https://www.twiter.com" style="font-weight: 100px;"><i  class="fa fa-twitter"></i></a></li>
-                        <li class="social-btn" style="padding: 2rem;" id="tbl"><a href="#htpps://www.tmblr.com" style="font-weight: 100px;"><i  class="fa fa-tumblr"></i></a></li>
-                        <li class="social-btn" style="padding: 2rem;" id="pin"><a href="#https://www.pinterest" style="font-weight: 100px;"><i  class="fa  fa-pinterest"></i></a></li>
-                        <li class="social-btn" style="padding: 2rem;" id="flk"><a href="#https://www.flickr.com" style="font-weight: 100px;"><i  class="fa  fa-flickr"></i></a></li>
-                        
-                    </div> <!-- end container -->
+                        </div> <!-- end Message -->
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="text-right">
+                                    <button class="btn btn-custom" id="contact_submit_btn" name="contact_submit_btn"><span>Send Message</span></button>
+                                </div>
+                            </div>
+                        </div> <!-- end button -->
+                    </form><!-- END FORM -->
+                </div>
+            </div>
                     <!-- <h6>Copyright© 2021 by<a href="http://www.jupiters.fr   "> Jupiters </a></h6> -->
         </section> <!-- end Contact -->
-        
-<section >
-        <nav class="c-uhff-nav footer" aria-label="Liens de ressource en pied de page" >
-            <div class="logo-footer">
-                <img src="./UPHUB/2.png" alt="logo">
-            </div>
+        <!-- =========================
+                 SOCIAL CONTACT
+        ========================== -->
+        <section class="section">
+            <div class="nav-item "  >
+                <ul class="social items socialContact" >
+                    <li class="social-btn" style="padding: 2rem;" id="fb"><a href="#https://www.facebook.com" style="font-weight: 100px;"><i  class="fa fa-facebook"></i></a></li>
+                    <li class="social-btn" style="padding: 2rem;" id="tw"><a href="#https://www.twiter.com" style="font-weight: 100px;"><i  class="fa fa-twitter"></i></a></li>
+                    <li class="social-btn" style="padding: 2rem;" id="tbl"><a href="#htpps://www.tmblr.com" style="font-weight: 100px;"><i  class="fa fa-tumblr"></i></a></li>
+                    <li class="social-btn" style="padding: 2rem;" id="pin"><a href="#https://www.pinterest" style="font-weight: 100px;"><i  class="fa  fa-pinterest"></i></a></li>
+                    <li class="social-btn" style="padding: 2rem;" id="flk"><a href="#https://www.flickr.com" style="font-weight: 100px;"><i  class="fa  fa-flickr"></i></a></li>
+                </ul>
+            </div> 
+            <!-- end container -->
+        </section>
+        <!-- =========================
+                 FOOTER PRO
+        ========================== -->
+        <section class="section">
+            <nav class="c-uhff-nav footer" aria-label="Liens de ressource en pied de page" >
+                <!-- image logo -->
                 <div class="c-uhff-nav-row  display-flex">
                     <div class="c-uhff-nav-group sub-title" >
                         <div class="c-heading-4" role="heading" aria-level="4">Nouveaut&#233;s
@@ -509,7 +515,7 @@
                     </div>
                     <div class="c-uhff-nav-group sub-title" >
                         <div class="c-heading-4" role="heading" aria-level="4">A propos se uphub</div>
-                        <ul class="c-list f-bare ">
+                        <ul class="c-list f-bare socialLink">
                             <li>
                                 <a aria-label="" class="c-uhff-link" href="#https://">La confidentialité chez uphub</a>
                             </li>
@@ -542,9 +548,11 @@
                     
                 </nav>
                     
-</section>
-<!-- partielle -->
-
+        </section>
+<!-- partielle footer an position sticty on and screem-->
+        <!-- =========================
+            FOOTER FIX ON BUTTOM SREEM
+        ========================== -->
         <footer class="footer container fixed-bottom text-light" id="footer">
             <div class="text-center py-3">
                 <ul id="footer">
