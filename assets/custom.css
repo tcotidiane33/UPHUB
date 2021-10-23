@@ -355,3 +355,14 @@
 .open-overlay p {
   margin: 2rem;
 }
+.getInTouch {
+  margin-right: 2rem !important;
+}
+
+#logo_footer {
+  transform: translate(-50% -50%) !important;
+  -webkit-transform: translate(-50% -50%) !important;
+  -moz-transform: translate(-50% -50%) !important;
+  -ms-transform: translate(-50% -50%) !important;
+  -o-transform: translate(-50% -50%) !important;
+}

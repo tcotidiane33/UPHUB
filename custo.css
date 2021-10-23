@@ -1,16 +1,81 @@
 /* css of the final footer rename section*/
 .display-flex {
   display: flex;
+  /* flex-wrap: wrap; */
   color: rgb(255, 255, 255) !important;
-  background-color: rgb(32, 19, 41);
-  );
+}
+.aside {
+  background-color: black;
+  color-adjust: initial;
+  color: azure;
+  border-radius: 0% 50%;
+  -webkit-border-radius: 0% 50%;
+  -moz-border-radius: 0% 50%;
+  -ms-border-radius: 0% 50%;
+  -o-border-radius: 0% 50%;
+}
+#heberge {
+  max-height: max-content;
+  max-width: max-content;
+}
+.actionProd {
+  bottom: 0;
+  
+}
+.actionProd ul li {
+  list-style-type: none;
+}
+.actionProd ul li a {
+  text-decoration: none;
+}
+/* ============================== */
+.c-heading-4 {
+  font-size: 25px;
+  visibility: visible;
+  opacity: 100%;
+}
+.footerPro {
+  width: auto;
 }
 .sub-title {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .sub-title ul li {
   list-style-type: none;
-  /* list-style: none; */
+  padding: 5px;
+  border-radius: 10% 10%;
+  backface-visibility: visible;
+  -webkit-border-radius: 10% 10%;
+  -moz-border-radius: 10% 10%;
+  -ms-border-radius: 10% 10%;
+  -o-border-radius: 10% 10%;
+  -webkit-backface-visibility: visible;
+}
+.sub-title ul li:hover {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 6% 6%;
+  background: rgba(112, 112, 221, 0.2);
+  backface-visibility: visible;
+  -webkit-border-radius: 6% 6%;
+  -moz-border-radius: 6% 6%;
+  -ms-border-radius: 6% 6%;
+  -o-border-radius: 6% 6%;
+  -webkit-backface-visibility: visible;
+  transition-duration: 0.5s;
+}
+.sub-title ul li:not(:hover) {
+  list-style-type: none;
+  padding: 5px;
+  border-radius: 6% 6%;
+  backface-visibility: visible;
+  -webkit-border-radius: 6% 6%;
+  -moz-border-radius: 6% 6%;
+  -ms-border-radius: 6% 6%;
+  -o-border-radius: 6% 6%;
+  -webkit-backface-visibility: visible;
+  transition-duration: 0.5s;
 }
 .sub-title ul li a {
   text-decoration: none;
@@ -21,7 +86,7 @@
   ===================
  */
 @media only screen and (max-width: 320px) {
-  *{
+  * {
     margin: auto;
     padding: auto;
     box-sizing: border-box;
@@ -38,19 +103,29 @@
     position: relative;
     flex-wrap: wrap;
   }
-      /* 
+  /* 
       <!-- =========================
                     portfolio 1 IMG
             ========================== -->
       */
-      
-      
-      /* 
+
+  /* 
+      <!-- =========================
+              CONTACT & COMMENTAIRE
+            ========================== -->
+      */
+
+  .comment {
+    display: block !important;
+    justify-content: space-between;
+    position: relative;
+  }
+  /* 
       <!-- =========================
                     FEATURES
             ========================== -->
       */
-  .smart-service{
+  .smart-service {
     position: absolute !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -59,20 +134,20 @@
     display: block;
     padding-bottom: 2rem;
   }
-  .open-overlay p{
+  .open-overlay p {
     padding: 2rem;
   }
 
-  .sub-title{
+  .sub-title {
     flex-direction: column;
     justify-content: center;
     /* display: flexbox; */
   }
-  .socialLink{
+  .socialLink {
     flex-direction: column-reverse;
     justify-content: space-around;
   }
-  
+
   .socialContact {
     /* display: block; */
     justify-content: space-between;
@@ -81,7 +156,6 @@
     margin: 50px;
   }
 }
-
 
 .features {
   position: relative;
@@ -95,7 +169,7 @@
   flex-wrap: wrap;
   padding: 5rem;
 }
-.socialLink{
+.socialLink {
   justify-content: space-evenly;
 }
 .logo-footer {

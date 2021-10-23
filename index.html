@@ -189,9 +189,40 @@
 
    <!-- effet portfolio 1 exemplaire of products -->
     <div class="portfolio1" id="promotion" >
-     
-      <h1><b>ETIAM ADIPISCING MAGNA FEUGIAT LOREM DOLOR EGESTAS</b></h1>
-        <img src="./UPHUB/webdesign/PROMO1.jpg" alt="promo1">
+        <div class="promo1 display-flex aside">
+            <div class="website">
+                <h1><b>ETIAM ADIPISCING MAGNA FEUGIAT LOREM DOLOR EGESTAS</b></h1>
+                <img src="./UPHUB/webdesign/PROMO1.jpg" alt="promo1">
+            </div>
+            <div class="infos aside">
+                <h1>PRIX</h1>
+                <h5>DUREE D'EXECUTION DU PROJECT </h5>
+                <H3>EQUIPE DISPONIBLE POUR LA REALISATION DU PROJECT</H3>
+                <textarea name="hebergement" id="heberge">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Voluptatem maxime eos architecto repellat provident, 
+                        eius, nihil et obcaecati doloremque nostrum quidem. 
+                        Ex sint provident minus laudantium cupiditate veritatis 
+                        maxime dicta.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus dolore exercitationem expedita itaque laboriosam, officia repudiandae veniam tenetur pariatur reprehenderit debitis, libero, corporis doloremque asperiores molestiae? At sint numquam perferendis.
+                    </p>
+                    hebergement de la première année ... 
+                </textarea>
+                <div class="actionProd">
+                    <ul class="display-flex">
+                        <li><a class="button btn btn-primary" href="#" >
+                            AIMER
+                        </a></li>
+                        <li><a class="button btn btn-info" href="#" >
+                            PARTAGER
+                        </a></li>
+                        <li><a class="button btn btn-danger" href="#" >
+                            AJOUTEZ AU PANIER
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <h1><b>TRIANGLE</b></h1>
         <img src="./UPHUB/webdesign/PROMO2.jpg" alt="promo2">
         <h1><b>THE future has landed</b></h1>
@@ -209,9 +240,9 @@
         <h1><b> are you ready for TEST DRIVE</b></h1>
         <img src="./UPHUB/webdesign/PROMO9.jpg" alt="promo9">
         <h1><b> WOODER  </b></h1>
-      <img src="./UPHUB/webdesign/PROMO10.jpg" id="img1" alt="promo10">
-       <h1>BARMY GRAFFITI CREW</h1>
-      <img src="./UPHUB/webdesign/PROMO.jpeg" id="img1" alt="promo1">
+        <img src="./UPHUB/webdesign/PROMO10.jpg" id="img1" alt="promo10">
+        <h1>BARMY GRAFFITI CREW</h1>
+        <img src="./UPHUB/webdesign/PROMO.jpeg" id="img1" alt="promo1">
     </div>
 <!-- buttom voir plus #promotion -->
     <div class="voir">
@@ -340,18 +371,17 @@
         </section>    
 
         <!-- =========================
-                 CONTACT
+                 CONTACT COMMENTAIRE
         ========================== -->
         <section class="section">
         <div id="contact" class="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="">
+            <div class="container comment">
+                    <div class="getInTouch">
                         <h4>Get In Touch</h4>
                         <div class="line-separate line-white text-center"><span></span></div>
-                        <p>LAISER UN COMMMENTAIRE</p>
-                    </div> <!-- end Our Location -->
-                </div> <!-- end row -->
+                        <p>LAISER UN COMMMENTAIRE  </p>
+                    </div><!-- end Our Location -->
+                
                 <!-- CONTACT FORM -->
                 <div id="cformSuccessMsg" style="display: none;" class="confirm-message"></div>
                     <form id="" name="contactForm" method="POST" >
@@ -398,13 +428,15 @@
         <!-- =========================
                  FOOTER PRO
         ========================== -->
-        <section class="section">
-            <nav class="c-uhff-nav footer" aria-label="Liens de ressource en pied de page" >
-                <!-- image logo -->
+        <section class="section ">
+            <nav class="c-uhff-nav footerPro footer" aria-label="Liens de ressource en pied de page" >
+                <!-- INSERER image logo -->
                 <div class="c-uhff-nav-row  display-flex">
+                    <div id="logo_footer">
+                        <a href="http://index.html"><img src="./UPHUB/2.png" class="img-thumbnail" alt="Uphub_logo" srcset="logo"></a>
+                    </div>
                     <div class="c-uhff-nav-group sub-title" >
-                        <div class="c-heading-4" role="heading" aria-level="4">Nouveaut&#233;s
-                        </div>
+                        <div class="c-heading-4" role="heading" aria-level="4">Nouveaut&#233;s</div>
                         <ul class="c-list f-bare">
                             <li>
                                 <a aria-label="Surface Pro 8 Nouveaut&#233;s" class="c-uhff-link" href="#https://www" >Surface Pro </a>
@@ -431,12 +463,10 @@
                                 <a aria-label="HoloLens 2 Nouveaut&#233;s" class="c-uhff-link" href="#https://www" >Uphub Hebergement</a>
                             </li>
 
-                        </ul>
-                        
+                        </ul>  
                     </div>
                     <div class="c-uhff-nav-group sub-title" >
-                        <div class="c-heading-4" role="heading" aria-level="4">Uphub Store
-                                        </div>
+                        <div class="c-heading-4" role="heading" aria-level="4">Uphub Store</div>
                         <ul class="c-list f-bare ">
                             <li>
                                 <a aria-label="Profil du compte Uphub Store" class="c-uhff-link" href="#https://">Profil du compte</a>
@@ -460,12 +490,10 @@
                                 <a aria-label="La promesse du Uphub Store uphub Store" class="c-uhff-link" href="#https://">La promesse du Microsoft Store</a>
                             </li>
 
-                        </ul>
-                        
+                        </ul>         
                     </div>
                     <div class="c-uhff-nav-group sub-title" >
-                        <div class="c-heading-4" role="heading" aria-level="4">Entrepprise
-                                        </div>
+                        <div class="c-heading-4" role="heading" aria-level="4">Entrepprise</div>
                         <ul class="c-list f-bare ">
                             <li>
                                 <a aria-label="" class="c-uhff-link" href="#https://">Fabrication</a>
@@ -480,11 +508,9 @@
                                 <a aria-label="" class="c-uhff-link" href="#https://">Vente et Detail</a>
                             </li>
                         </ul>
-                        
                     </div>
                     <div class="c-uhff-nav-group sub-title" >
-                        <div class="c-heading-4" role="heading" aria-level="4">Developpement
-                                        </div>
+                        <div class="c-heading-4" role="heading" aria-level="4">Developpement</div>
                         <ul class="c-list f-bare ">
                             <li>
                                 <a aria-label="" class="c-uhff-link" href="#https://">Programme pour Développeur </a>
@@ -496,10 +522,9 @@
                                 <a aria-label="" class="c-uhff-link" href="#https://">Centre de Developpement</a>
                             </li>
                         </ul>
-                        
                     </div>
                     <div class="c-uhff-nav-group sub-title" >
-                        <div class="c-heading-4" role="heading" aria-level="4">Eentreprise</div>
+                        <div class="c-heading-4" role="heading" aria-level="4">Entreprise</div>
                         <ul class="c-list f-bare ">
                             <li>
                                 <a aria-label="" class="c-uhff-link" href="#https://">Carrière</a>
@@ -508,24 +533,24 @@
                                 <a aria-label="" class="c-uhff-link" href="#https://">Freelance</a>
                             </li>
                             <li>
-                                <a aria-label="" class="c-uhff-link" href="#https://"></a>
+                                <a aria-label="" class="c-uhff-link" href="#https://">JUPITERS EVO & BELUGA </a>
                             </li>
-                        </ul>
-                        
-                    </div>
-                    <div class="c-uhff-nav-group sub-title" >
-                        <div class="c-heading-4" role="heading" aria-level="4">A propos se uphub</div>
-                        <ul class="c-list f-bare socialLink">
                             <li>
                                 <a aria-label="" class="c-uhff-link" href="#https://">La confidentialité chez uphub</a>
                             </li>
                             <li>
                                 <a aria-label="" class="c-uhff-link" href="#https://">Investisseurs</a>
                             </li>
+                        </ul>                       
+                    </div>
+                    <div class="c-uhff-nav-group sub-title" >
+                        <div class="c-heading-4" role="heading" aria-level="4">A propos de uphub</div>
+                        <ul class="c-list f-bare socialLink">
+                            
                             <li>
                                 <a aria-label="" class="c-uhff-link" href="#https://">Sécurité</a>
                             </li>
-                            <p><a aria-label="" class="c-uhff-link" href="#https://">Tableau de Bord développeur</a></p>
+                            <a aria-label="" class="c-uhff-link" href="#https://">Tableau de Bord développeur</a>
                             <li>
                                 <a aria-label="" class="c-uhff-link" href="#https://">Envoyer des commentaires</a>
                             </li>
@@ -543,11 +568,9 @@
                             </li>
                             <p><big><em>©Uphub 2021</em></big></p>
                         </ul>
-                        
                     </div>
-                    
-                </nav>
-                    
+                </div>
+            </nav>           
         </section>
 <!-- partielle footer an position sticty on and screem-->
         <!-- =========================
