@@ -13,6 +13,7 @@
   background-color: rgba(252, 252, 252, 0.3);
   color-adjust: initial;
   margin-left: 1rem;
+  margin-bottom: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem;
   color: rgb(117, 209, 209);
@@ -24,8 +25,26 @@
 }
 .aside h1 {
   color: black;
+  font-style: oblique;
+  place-content: center;
+  justify-content: center;
+  font-weight: bolder;
+  box-shadow: 0rem 1rem 2rem 1rem #adf;
+  padding: 4rem;
+  border-radius: 7% 7%;
+  -webkit-border-radius: 7% 7%;
+  -moz-border-radius: 7% 7%;
+  -ms-border-radius: 7% 7%;
+  -o-border-radius: 7% 7%;
+}
+.aside h5 {
+  color: rgb(26, 39, 49);
+  font-style: oblique;
+  place-content: center;
 }
 
+#btnEffect:hover {
+}
 
 #heberge {
   max-height: max-content;
@@ -35,11 +54,57 @@
 .actionProd {
   bottom: 0;
 }
+.actionProd ul li a:hover {
+  padding: 1.3rem;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.actionProd ul li a:not(:hover) {
+  padding: 1rem;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
 .actionProd ul li {
   list-style-type: none;
+  margin: 2rem;
+  justify-content: space-between;
 }
 .actionProd ul li a {
   text-decoration: none;
+}
+.progress {
+  background: rgba(252, 252, 252, 0.3);
+  border-radius: 50% 50%;
+  -webkit-border-radius: 50% 50%;
+  -moz-border-radius: 50% 50%;
+  -ms-border-radius: 50% 50%;
+  -o-border-radius: 50% 50%;
+}
+
+.line-separate span {
+  font-size: larger;
+  font-weight: 900;
+}
+.asideBigWebsite {
+  place-content: center;
+  place-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  /* transform: translate(-50% -50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translate(-50% -50%);
+  -ms-transform: translate(-50% -50%);
+  -o-transform: translate(-50% -50%);
+  -webkit-transform: translate(-50% -50%); */
 }
 /* ================END ASIDE ============== */
 .c-heading-4 {

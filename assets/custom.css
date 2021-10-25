@@ -340,6 +340,9 @@
 }
 #contact_submit_btn {
   box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem #0b0e0f;
+  margin-top: 0rem;
+  /* left: 12rem; */
+  position: sticky;
 }
 
 /* 

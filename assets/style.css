@@ -151,7 +151,11 @@ header {
   display: flex;
 }
 
-/* DARK MODE */
+/*
+<!-- =========================
+                  DARK MODE
+        ========================== -->
+*/ 
 .dark {
   background: url(../_UnicornGradients/UnicornVectorGradient_4.jpg);
   size: cover;
@@ -169,6 +173,7 @@ header {
 .dark .ball {
   background: #09fbba;
 }
+
 /*toggle*/
 .toggle {
   position: absolute;
@@ -538,6 +543,8 @@ p::first-letter {
   flex-grow: 100;
   max-width: 600px;
   margin: 0px;
+  padding: 10rem;
+  padding-left: 9rem;
   border-radius: 7px;
   background-size: auto 100%;
 }
@@ -548,7 +555,7 @@ p::first-letter {
 .text-container {
   width: 100%;
   height: 400px;
-  padding: 2rem;
+  padding: 8rem;
   visibility: hidden;
   transform: translateY(300px);
   opacity: 0;
@@ -556,6 +563,10 @@ p::first-letter {
   background: linear-gradient(354deg, black 0%, transparent 72%);
   color: white;
   overflow: hidden;
+  -webkit-transform: translateY(300px);
+  -moz-transform: translateY(300px);
+  -ms-transform: translateY(300px);
+  -o-transform: translateY(300px);
 }
 .text {
   position: absolute;

@@ -1,149 +1,9 @@
-/*
-	Indus by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Settings In style.css :
-    1. General
-    2.Home/Countdown
-    3.Newsletter
-    4.Features
-    5.Contact-Us
-*/
-
 /* ==============================================
-1.GENERAL
+.GENERAL
 =============================================== */
-body {
-  overflow-x: hidden;
-  overflow-y: auto;
-  font-family: "Roboto", sans-serif;
-}
-.margin-t-50 {
-  margin-top: 50px;
-}
-.btn-custom {
-  background-color: #000;
-  color: #fff;
-  border-radius: 3px;
-}
-.btn-custom:hover,
-.btn-custom:active,
-.btn-custom:focus {
-  background-color: #3a3939;
-  color: #fff;
-  outline: none;
-}
-.parallax {
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  width: 100%;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.animationload {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  z-index: 999999;
-}
-.loader {
-  width: 200px;
-  height: 200px;
-  font-size: 0;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background-image: url(../images/loader.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: -100px 0 0 -100px;
-}
+
 /* -----------------------------------------------------------------------
-   2. HOME / Countdown styles
-------------------------------------------------------------------------- */
-.logo {
-  padding-bottom: 5%;
-}
-.logo p {
-  color: #ffffff;
-  padding-top: 20px;
-  font-style: italic;
-}
-#home .large-header {
-  background-image: url("../images/pattern.png"), url("../images/img-1.jpg");
-  background-position: center;
-}
-.home-main {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
-}
-#countdown_dashboard {
-  display: block;
-  margin: 0px auto;
-  overflow: hidden;
-}
-.dash {
-  padding-bottom: 10px;
-  position: relative;
-  opacity: 1;
-}
-.dash_title {
-  font-size: 16px;
-  width: 100%;
-  color: #bbbbbb;
-  display: block;
-  clear: both;
-}
-.digit {
-  color: #f9f9f9;
-  font-size: 60px;
-  font-weight: 300;
-  display: inline-block;
-  overflow: hidden;
-  text-align: center;
-  height: 110px;
-  line-height: 110px;
-  position: relative;
-  vertical-align: middle;
-}
-@media (max-height: 360px) {
-  .digit {
-    font-size: 30px;
-    height: 50px;
-    line-height: 50px;
-  }
-}
-@media (max-width: 560px) {
-  #countdown_dashboard {
-    min-width: 300px;
-  }
-  .digit {
-    font-size: 30px;
-    height: 60px;
-    line-height: 60px;
-  }
-}
-@media (min-width: 560px) and (max-width: 1024px) {
-  .digit {
-    font-size: 40px;
-    height: 80px;
-    line-height: 80px;
-  }
-}
-/* -----------------------------------------------------------------------
-  3. Newsletter styles
+  Newsletter styles
 ------------------------------------------------------------------------- */
 .newsletter {
   padding: 100px 0px;
@@ -268,7 +128,7 @@ div.open-overlay {
 /*-------------------------------------------------------------------*/
 .contact {
   text-align: center;
-  padding: 100px 0px;
+  padding: 150px 0px;
 }
 .contact h4 {
   font-size: 22px;
@@ -284,12 +144,14 @@ div.open-overlay {
   padding: 10px 0px 30px 0px;
 }
 .contact input {
-  width: 100%;
+  width: 1800%;
   height: 43px;
   margin-bottom: 20px;
+  margin-right: 110px;
   line-height: 20px;
   padding-left: 15px;
-  font-size: 15px;
+  /* padding-right: 3rem !important; */
+  font-size: 25px;
   color: #000000;
 }
 .contact .validation {
@@ -306,6 +168,10 @@ div.open-overlay {
 }
 textarea {
   resize: none;
+  position: relative;
+  width: 900px !important;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 .contact input:focus,
 .contact textarea:focus,
@@ -371,11 +237,12 @@ textarea {
   float: right;
 }
 .social li {
-  margin: 0px 10px !important;
+  margin: 0px 20px !important;
+  padding: 4rem !important;
 }
 li.social-btn {
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
   margin: 0 auto;
   -webkit-transition: all 0.6s ease 0s;
   -moz-transition: all 0.6s ease 0s;
@@ -388,14 +255,12 @@ li.social-btn {
   border: solid 1px #000;
 }
 .social-btn {
-  font-size: 16px;
+  font-size: 26px;
   line-height: 30px;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   margin-top: -60px;
   margin-left: -30px;
-}
-.social-btn a {
 }
 .social-btn a {
   font-size: 35px;
@@ -415,11 +280,13 @@ li.social-btn {
   transform: rotate(45deg);
   margin-left: -0.3em;
   margin-top: -0.1em;
+  font-size: 4rem !important;
 }
 .social-btn a i:last-of-type {
-  margin-left: -0.5em;
-  margin-top: -0.3em;
+  margin-left: -0.5em !important;
+  margin-top: -0.3em !important;
 }
+
 #fb {
   border: 2px solid #3b5998;
   color: #3b5998;
@@ -485,9 +352,9 @@ li.social-btn {
   color: #fff;
 }
 
-.footer {
+/* .footer {
   padding-bottom: 5px;
-}
+} */
 .copyright {
   padding-top: 5px;
 }
