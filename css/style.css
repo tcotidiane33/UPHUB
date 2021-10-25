@@ -6,7 +6,7 @@
   Newsletter styles
 ------------------------------------------------------------------------- */
 .newsletter {
-  padding: 100px 0px;
+  padding: 0px 110px 170px 0px !important;
 }
 .newsletter h4,
 .newsletter p {
@@ -17,7 +17,7 @@
 }
 .news-input {
   border: 3px solid #000;
-  height: 45px;
+  height: 50px;
   border-right: 0px;
   color: #000;
 }
@@ -50,13 +50,14 @@
    4. Features styles
 ------------------------------------------------------------------------- */
 .features {
-  padding: 120px 0px 100px 0px;
+  padding: 15px 0px 15px 0px !important;
 }
 .features h4 {
   color: #fff;
 }
 #features {
-  background: url("../images/pattern.png"), url("../images/img-2.jpg");
+  background: url("../images/pattern.png");
+  height: 25rem !important;
 }
 div.open-overlay {
   width: 80px;
@@ -82,7 +83,7 @@ div.open-overlay {
   margin-left: -30px;
 }
 .open-overlay i {
-  font-size: 32px;
+  font-size: 40px;
   line-height: 70px;
   z-index: 2;
   margin: 0 auto;
@@ -115,18 +116,19 @@ div.open-overlay {
 }
 .features-box p {
   color: #bbbbbb;
-  padding-top: 10px;
-  margin-bottom: 0px;
+  margin: 2rem !important;
 }
 @media (max-width: 1000px) {
   .features-box {
     padding-top: 50px;
+    justify-content: space-between;
   }
 }
 /*-------------------------------------------------------------------*/
 /*  5.CONTACT
 /*-------------------------------------------------------------------*/
 .contact {
+  margin-top: 1rem;
   text-align: center;
   padding: 150px 0px;
 }

@@ -350,11 +350,34 @@
                  FEATURES
         ========================== -->
  */
-.smart-servive {
-  pointer-events: visible;
-  position: absolute;
-  /* flex-wrap: wrap !important; */
+.high {
+  padding: 0rem;
+  margin: 2rem;
+  height: 1rem;
+  background-color: #0040ff;
+  opacity: 80%;
+  z-index: 1;
+  box-shadow: 0rem 0rem 2rem 1rem rgb(0, 0, 255);
 }
+.great {
+  padding: 0rem;
+  margin: 2rem;
+  height: 1rem;
+  background-color: #03f40b;
+  opacity: 80%;
+  z-index: 1;
+  box-shadow: 0rem 0rem 2rem 1rem rgb(255, 255, 0);
+}
+.customer {
+  padding: 0rem;
+  margin: 2rem;
+  height: 1rem;
+  background-color: #f41303;
+  opacity: 80%;
+  z-index: 1;
+  box-shadow: 0rem 0rem 2rem 1rem rgb(255, 0, 0);
+}
+
 .open-overlay p {
   margin: 2rem;
 }
