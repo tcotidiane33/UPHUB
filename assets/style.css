@@ -26,7 +26,7 @@ body {
   border-radius: 10% 10%;
   display: grid;
   place-items: center;
-  background-image: url("../UPHUB/bg.svg");
+  background-image: url("../_UnicornGradients/UnicornVectorGradient_01.jpg");
   background-size: cover;
   /* z-index: -1; */
   /* opacity: 50%; */
@@ -153,7 +153,7 @@ header {
 
 /* DARK MODE */
 .dark {
-  background: url(../UPHUB/4.jpg);
+  background: url(../_UnicornGradients/UnicornVectorGradient_4.jpg);
   size: cover;
 }
 .dark p a h6 h3 {
