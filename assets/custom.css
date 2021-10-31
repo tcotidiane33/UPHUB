@@ -392,3 +392,37 @@
   -ms-transform: translate(-50% -50%) !important;
   -o-transform: translate(-50% -50%) !important;
 }
+.paginator {
+  padding: 1rem;
+}
+.pagination li {
+  margin: 2px;
+  padding: 7px;
+  height: auto;
+  color: #0b0e0f;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Garamond, Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(225, 225, 225, 0.7);
+  border-radius: 13%;
+  -webkit-border-radius: 13%;
+  -moz-border-radius: 13%;
+  -ms-border-radius: 13%;
+  -o-border-radius: 13%;
+}
+.paginator ul li:hover {
+  padding: 10px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -ms-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.paginator ul li:not(:hover) {
+  padding: 7px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -ms-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

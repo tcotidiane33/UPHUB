@@ -14,6 +14,7 @@
   color-adjust: initial;
   margin-left: 1rem;
   margin-bottom: 1rem;
+  font-size: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem;
   color: rgb(117, 209, 209);
@@ -29,6 +30,8 @@
   place-content: center;
   justify-content: center;
   font-weight: bolder;
+  font-size: 50px;
+  font-family: Garamond, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-shadow: 0rem 1rem 2rem 1rem #adf;
   padding: 4rem;
   border-radius: 7% 7%;
@@ -41,6 +44,8 @@
   color: rgb(26, 39, 49);
   font-style: oblique;
   place-content: center;
+  font-size: 50px;
+  font-family: Garamond, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #btnEffect:hover {
@@ -127,6 +132,8 @@
   list-style-type: none;
   font-size: 1.5rem;
   padding: 3px;
+  font-size: 50px;
+  font-family: Garamond, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 6% 6%;
   background: rgba(112, 112, 221, 0.2);
   backface-visibility: visible;

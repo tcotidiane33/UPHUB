@@ -1,3 +1,6 @@
 {
-  "recommendations": ["tomasvergara.vscode-fontawesome-gallery"]
+  "recommendations": [
+    "tomasvergara.vscode-fontawesome-gallery",
+    "dbaeumer.vscode-eslint"
+  ]
 }

@@ -4,7 +4,8 @@
   "description": "createur digital",
   "main": "script.js",
   "scripts": {
-    "test": " index.html"
+    "start": " index.html",
+    "start-s": " nodemon ./data/server.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,9 @@
     "doc": "doc"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
     "normalize.css": "^8.0.1"
   }
 }
