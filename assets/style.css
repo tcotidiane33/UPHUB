@@ -22,25 +22,27 @@ body {
 body {
   transition: 0.2s linear;
   font-family: "Dosis","Garamond" sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #333;
-  max-height: 100vh - 2rem !important;
+  /* max-height: 100vh - 2rem !important;
   max-width: 100vw - 2rem !important;
   display: grid;
-  place-items: center;
+  place-items: center; */
   background-image: url("../_UnicornGradients/UnicornVectorGradient_01.jpg");
-  background-size: cover;
+  /* background-size: cover; */
   /* z-index: -1; */
   /* opacity: 50%; */
   /* visibility: 50%; */
 }
 .nav-item {
   background-position-x: #333;
-  margin: 0.5rem 2rem auto;
+  place-content: center;
+  place-items: center;
+  /* margin: 0.5rem 2rem auto; */
   color: cornsilk;
 }
 .nav-item ul li{
-  font-size: 43px;
+  font-size: 40px;
 }
 header {
   /* background: aqua !important; */
@@ -53,6 +55,9 @@ header {
   display: flex;
   font-weight: 10rem;
   padding: 1rem;
+  text-align: center;
+  justify-content: center;
+
   /* position: relative; */
 }
 .items li:hover {
@@ -121,10 +126,10 @@ header {
   justify-content: flex-end;
 }
 .loginContent .loginContent0 ul li {
-  list-style: none;
+  list-style: none !important;
 }
 .loginContent .loginContent0 ul li a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 /* footer of page promotion  */
 .loginContent0 {
@@ -138,6 +143,7 @@ header {
   font-size: 3rem;
   color: crimson;
   padding: 80px;
+  text-decoration: none !important;
 }
 #login0 li a {
   font-size: 2rem;
@@ -285,27 +291,13 @@ header {
   width: 100%;
   height: 200%;
   pointer-events: none;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.009) 11.7%,
-    rgba(0, 0, 0, 0.034) 22.1%,
-    rgba(0, 0, 0, 0.072) 31.2%,
-    rgba(0, 0, 0, 0.123) 39.4%,
-    rgba(0, 0, 0, 0.182) 46.6%,
-    rgba(0, 0, 0, 0.249) 53.1%,
-    rgba(0, 0, 0, 0.32) 58.9%,
-    rgba(0, 0, 0, 0.394) 64.3%,
-    rgba(0, 0, 0, 0.468) 69.3%,
-    rgba(0, 0, 0, 0.54) 74.1%,
-    rgba(0, 0, 0, 0.607) 78.8%,
-    rgba(0, 0, 0, 0.668) 83.6%,
-    rgba(0, 0, 0, 0.721) 88.7%,
-    rgba(0, 0, 0, 0.762) 94.1%,
-    rgba(0, 0, 0, 0.79) 100%
-  );
+  background-image: linear-gradient(    to bottom,    rgba(0, 0, 0, 0) 0%,    rgba(0, 0, 0, 0.009) 11.7%,    rgba(0, 0, 0, 0.034) 22.1%,    rgba(0, 0, 0, 0.072) 31.2%,    rgba(0, 0, 0, 0.123) 39.4%,    rgba(0, 0, 0, 0.182) 46.6%,    rgba(0, 0, 0, 0.249) 53.1%,    rgba(0, 0, 0, 0.32) 58.9%,    rgba(0, 0, 0, 0.394) 64.3%,    rgba(0, 0, 0, 0.468) 69.3%,    rgba(0, 0, 0, 0.54) 74.1%,    rgba(0, 0, 0, 0.607) 78.8%,    rgba(0, 0, 0, 0.668) 83.6%,    rgba(0, 0, 0, 0.721) 88.7%,    rgba(0, 0, 0, 0.762) 94.1%,    rgba(0, 0, 0, 0.79) 100%  );
   transform: translateY(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
+  -webkit-transition: transform calc(var(--d) * 2) var(--e);
+  -moz-transition: transform calc(var(--d) * 2) var(--e);
+  -ms-transition: transform calc(var(--d) * 2) var(--e);
+  -o-transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
   background-image: url(/UPHUB/2.png);
@@ -388,7 +380,11 @@ header {
     opacity: 0;
     transform: translateY(1rem);
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
-  }
+    -webkit-transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    -o-transform: translateY(1rem);
+}
 
   .card:hover,
   .card:focus-within {
@@ -629,15 +625,15 @@ p::first-letter {
 }
 footer ul li {
   list-style: none;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 #footer i {
   opacity: 50%;
-  float: end;
+  /* float: end; */
 }
 #footer {
   display: flex;
-  padding: 120px 0px 100px 0px;
+  /* padding: 120px 0px 100px 0px; */
 }
 
 .output {
