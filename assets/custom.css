@@ -7,6 +7,7 @@
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
+  
 }
 
 /* Track */
@@ -17,6 +18,11 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #ff3d00;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 /* Handle on hover */
@@ -223,6 +229,10 @@
   overflow: -moz-hidden-unscrollable;
   justify-items: center;
   padding: 0;
+  /* modifier la 06/10 */
+  /* height: 50rem;
+  width: 50rem; */
+  /* =========== */
   border-radius: 0 5%;
 }
 .portfolio1 img:hover {

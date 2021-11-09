@@ -27,13 +27,14 @@
 .aside h1 {
   color: rgb(221, 221, 221);
   font-style: oblique;
+  text-align: center;
   place-content: center;
   justify-content: center;
   font-weight: bolder;
   font-size: 50px;
   font-family: Garamond, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-shadow: 0rem 1rem 2rem 1rem #adf;
-  padding: 4rem;
+  padding: 1rem;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -59,18 +60,32 @@
 .actionProd {
   bottom: 0;
 }
-.actionProd ul li a:hover {
-  padding: 1.3rem;
+.actionProd ul li a::before {
+  padding: 1.1rem;
   transition: 1s;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.actionProd ul li a:hover {
+  padding: 1rem;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  box-shadow: 5px 3px 3px 2px #cccccc;
 }
 .actionProd ul li a:not(:hover) {
   padding: 1rem;
@@ -282,10 +297,67 @@
 .socialLink {
   justify-content: space-evenly;
 }
-.logo-footer {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 16%;
-  margin-left: 3%;
-  margin-right: 3%;
+
+#logoFooter {
+  place-content: center;
+  place-items: center;
+  padding-top: 4rem;
+}
+#logoFooter a img {
+  place-content: center;
+  place-items: center;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  width: 150px;
+  height: 150px;
+}
+#logoFooter a:hover {
+  padding: 4.5rem;
+  background: rgba(0, 0, 0, 0.626);
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+  transition: all 1s;
+  width: 150px;
+  height: 150px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  box-shadow: 7px 5px 10px 1px #ffffff;
+}
+#logoFooter a:not(:hover) {
+  padding: 4rem;
+  top: 30%;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  transition: all 2s;
+  width: 140px;
+  height: 140px;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+iframe {
+  overflow: hidden;
+}
+.iframe
+#iframe_sign {
+  padding: 0rem;
+  width: 550px;
+  height: 700px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }

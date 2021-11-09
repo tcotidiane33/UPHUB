@@ -14,8 +14,7 @@
   margin: 0;
   font-style: italic;
 }
-html,
-body {
+html{
   color-adjust: rgb(255, 255, 255) !important;
   overflow: auto;
 }
@@ -46,7 +45,7 @@ body {
 }
 header {
   /* background: aqua !important; */
-  display: inline-flex;
+  display: flex;
   /* border-radius: 40% 40%; */
   justify-content: flex;
   text-align: center;
